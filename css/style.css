@@ -47,7 +47,7 @@ body {
 }
 
 .content-container {
-    padding-top: 75px;
+    padding-top: 10px;
     padding-bottom: 75px;
 }
 
@@ -253,4 +253,8 @@ blockquote.quote {
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
+}
+
+.label-success {
+    background-color: #29a4df;
 }
