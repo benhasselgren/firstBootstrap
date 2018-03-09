@@ -4,13 +4,11 @@ body {
 
 /* Containers */
 
-.alert-container{
-    
-}
+.alert-container {}
 
-.callout-container{
+.callout-container {
     height: 100vh;
-    background: url("../images/whiskey-background.jpg") no-repeat center center fixed; 
+    background: url("../images/whiskey-background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    
+
 }
 
 /* Opague overlay */
@@ -32,13 +30,9 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quotes-container{
-    
-}
+.quotes-container {}
 
-.features-container{
-    
-}
+.features-container {}
 
 /* jumbatron */
 
@@ -46,7 +40,7 @@ body {
     background-color: transparent;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
@@ -57,24 +51,46 @@ body {
     margin: 25px 0;
 }
 
-.jumbotron .text-muted{
+.jumbotron .text-muted {
     color: #c5c5c5;
 }
 
 /*block divider */
 
-.block-divider{
+.block-divider {
     height: 10px;
     width: 75px;
     border: 0;
-    
+
 }
 
-.block-divider--orange{
-    background-color: #c57a19;
+.block-divider--orange {
+    background-color: #d6591b;
 }
 
-.block-divider--short{
+.block-divider--short {
     width: 45px;
 }
 
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
